@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 
 
 interface ButtonProps {
-	className: string,
+	className: string | undefined,
 	isLoading: boolean,
 	children: React.ReactNode
 }
